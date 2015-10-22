@@ -6,7 +6,7 @@
     android:paddingRight="10dp">
 
     <RadioButton
-        android:id="@+id/checkedView"
+        android:id="@+id/rb_choiceview"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_centerVertical="true"
@@ -16,7 +16,7 @@
         android:focusableInTouchMode="false"/>
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/tv_choicetext"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:gravity="center_vertical"
