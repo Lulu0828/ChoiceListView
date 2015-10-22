@@ -1,0 +1,5 @@
+# ChoiceListView
+自定义单选listview
+
+  Android中，ListView可以设置choiceMode，可见Android对ListView的单选或多选是有进行封装的。在ListView中，维护了一个
+SparseBooleanArray，用于保存每一项的选中状态。而对于每一项，它是通过adapter的getView中获取的view，来设置它的选中状态的。所以，我们需要使得adapter中，getView中返回的这个view实现Checkable接口。
